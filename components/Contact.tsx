@@ -17,8 +17,8 @@ const contactInfo = [
       </svg>
     ),
     label: "WhatsApp",
-    value: "(47) 92002-0811",
-    href: "https://wa.me/5547920020811",
+    value: "(47) 99784-6958",
+    href: "https://wa.me/5547997846958",
   },
   {
     icon: (
@@ -132,7 +132,7 @@ export default function Contact() {
                       type="tel"
                       value={form.whatsapp}
                       onChange={(e) => setForm({ ...form, whatsapp: e.target.value })}
-                      placeholder="(47) 92002-0811"
+                      placeholder="(47) 99784-6958"
                       required
                       style={inputStyle}
                       onFocus={(e) => (e.currentTarget.style.borderColor = "#DD0C29")}
@@ -222,7 +222,7 @@ export default function Contact() {
                   Nosso time responde em minutos pelo WhatsApp.
                 </p>
                 <a
-                  href="https://wa.me/5547920020811"
+                  href="https://wa.me/5547997846958"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{

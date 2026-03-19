@@ -138,7 +138,7 @@ export default function Pricing() {
                 ))}
               </div>
 
-              <Link href="https://wa.me/5547920020811" target="_blank" rel="noopener noreferrer" style={{
+              <Link href="https://wa.me/5547997846958" target="_blank" rel="noopener noreferrer" style={{
                 display: "flex", alignItems: "center", justifyContent: "center", width: "100%",
                 backgroundColor: svc.highlight ? "#DD0C29" : "#F6F4F0",
                 color: svc.highlight ? "#fff" : "#1C1C1C",
@@ -168,7 +168,7 @@ export default function Pricing() {
               <h3 style={{ fontSize: 24, fontWeight: 600, color: "#fff", letterSpacing: "-0.5px", marginBottom: 6 }}>Precisa de algo sob medida?</h3>
               <p style={{ fontSize: 15, color: "rgba(255,255,255,0.5)", maxWidth: 420, lineHeight: 1.5 }}>Projetos complexos, integrações específicas ou escopo diferente? Fale com nosso time e montamos uma proposta personalizada.</p>
             </div>
-            <Link href="https://wa.me/5547920020811" target="_blank" rel="noopener noreferrer" style={{
+            <Link href="https://wa.me/5547997846958" target="_blank" rel="noopener noreferrer" style={{
               display: "inline-flex", alignItems: "center", gap: 8,
               backgroundColor: "#DD0C29", color: "#fff", fontSize: 16, fontWeight: 600,
               padding: "16px 32px", borderRadius: 16, flexShrink: 0,

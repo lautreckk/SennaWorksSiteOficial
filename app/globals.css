@@ -57,7 +57,7 @@ button, a, [role="button"] { cursor: pointer; }
   .hero-buttons { flex-direction: column !important; width: 100% !important; }
   .hero-buttons a { width: 100% !important; justify-content: center !important; }
   .hero-logos { gap: 20px !important; }
-  section { padding: 64px 0 !important; }
+  section { padding: 64px 20px !important; }
 }
 @media (max-width: 1024px) and (min-width: 769px) {
   .problem-grid { grid-template-columns: repeat(2, 1fr) !important; }

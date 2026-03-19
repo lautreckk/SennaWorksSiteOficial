@@ -79,7 +79,7 @@ export default function ImersaoPage() {
       </nav>
 
       {/* Hero */}
-      <section style={{ minHeight: "100svh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "120px 20px 80px", textAlign: "center", position: "relative" }}>
+      <section style={{ minHeight: "auto", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "120px 20px 60px", textAlign: "center", position: "relative" }}>
         <div style={{ position: "absolute", top: "30%", left: "50%", transform: "translate(-50%, -50%)", width: 500, height: 500, borderRadius: "50%", background: "radial-gradient(circle, rgba(221,12,41,0.15) 0%, transparent 70%)", pointerEvents: "none" }} />
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} style={{ position: "relative", zIndex: 1, maxWidth: 700 }}>
           <div style={S.badge}>🔴 Primeira semana de Abril</div>
