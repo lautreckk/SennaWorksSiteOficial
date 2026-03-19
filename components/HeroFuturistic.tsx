@@ -82,11 +82,11 @@ function WebGPUCanvas() {
         const screenAspect = w / h;
         let scaleX: number, scaleY: number;
         if (screenAspect > imgAspect) {
-          scaleX = 0.6;
-          scaleY = 0.6 * (screenAspect / imgAspect);
+          scaleX = 0.35;
+          scaleY = 0.35 * (screenAspect / imgAspect);
         } else {
-          scaleX = 0.6 * (imgAspect / screenAspect);
-          scaleY = 0.6;
+          scaleX = 0.35 * (imgAspect / screenAspect);
+          scaleY = 0.35;
         }
 
         const geometry = new THREE.PlaneGeometry(2, 2);
