@@ -61,7 +61,7 @@ export async function POST(req: NextRequest) {
     const aiContent = data.choices?.[0]?.message?.content || "Desculpe, tive um problema. Pode repetir?";
 
     // Check if lead was captured
-    const leadMatch = aiContent.match(/\[LEAD_CAPTURED\](.*?)\[\/LEAD_CAPTURED\]/s);
+    const leadMatch = aiContent.match(/\[LEAD_CAPTURED\]([\s\S]*?)\[\/LEAD_CAPTURED\]/);
     if (leadMatch) {
       try {
         const leadData = JSON.parse(leadMatch[1]);
@@ -84,7 +84,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Remove the lead tag from visible response
-    const cleanContent = aiContent.replace(/\[LEAD_CAPTURED\].*?\[\/LEAD_CAPTURED\]/s, "").trim();
+    const cleanContent = aiContent.replace(/\[LEAD_CAPTURED\][\s\S]*?\[\/LEAD_CAPTURED\]/, "").trim();
 
     return NextResponse.json({ content: cleanContent });
   } catch (error) {
